@@ -1,0 +1,1 @@
+SELECT * FROM employees LEFT JOIN departments ON employees.department_id = departments.id WHERE departments.department = IT AND employees.date_hired >= 2018-01-01;

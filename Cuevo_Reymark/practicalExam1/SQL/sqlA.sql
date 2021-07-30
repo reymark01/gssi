@@ -1,0 +1,1 @@
+SELECT TOP 1 * FROM employees, salary WHERE employees.salary_id = salary.id ORDER BY salary.salary DESC;
